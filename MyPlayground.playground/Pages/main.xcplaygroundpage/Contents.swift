@@ -18,8 +18,8 @@
 */
 // write your code here
 
-var height = 4
-var length = 6
+var height = 4.0
+var length = 6.0
 
 height + length
 
@@ -28,8 +28,8 @@ height + length
 */
 // write your code here
 
-var anotherHeight = 5.2
-Double(height) + anotherHeight
+var anotherHeight = 5
+Double(anotherHeight) + height
 
 /*: Question 3
 ### 3. Compare two Ints for equality
@@ -41,7 +41,7 @@ height == length
 ### 4. Compare two Doubles for equality
 */
 // write your code here
-var anotherLength = 2.2
+var anotherLength = 2
 
 anotherHeight == anotherLength
 
@@ -50,7 +50,7 @@ anotherHeight == anotherLength
 */
 // write your code here
 
-Double(height) == anotherHeight
+Double(anotherHeight) == height
 
 /*: Question 6
 ### 6. Compare 3 and 3.5 for equality (NB what do you have to be mindful of in this case?)
